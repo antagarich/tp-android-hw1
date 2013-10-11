@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    
+    <RelativeLayout 
+        android:layout_width="match_parent"
+   		android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+    	android:paddingRight="@dimen/activity_horizontal_margin"
+    	android:paddingBottom="40dp">
+    
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="80dp"
+	        android:layout_height="80dp"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:src="@drawable/ic_launcher" />
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignTop="@+id/imageView1"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:text="@string/Button1"
+	        android:textSize="20sp" />
+	
+	    <Button
+	        android:id="@+id/button2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="40dp"
+	        android:layout_alignBottom="@+id/imageView1"
+	        android:layout_alignParentRight="true"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:text="@string/Button2"
+	        android:textSize="20sp" />
+	
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/imageView1"
+	        android:text="@string/Text" 
+	        android:textSize="12sp"/>
+	
+	    <Button
+	        android:id="@+id/button3"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/textView1"
+	        android:text="Dialog" 
+	        android:onClick="Dialog"
+	        android:textColor="#ffffff"/>
+
+	    <EditText
+	        android:id="@+id/DialogEditText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentBottom="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_below="@+id/button3"
+	        android:ems="10"
+	        android:hint="@string/enterText"
+	        android:inputType="text" 
+	        android:focusable="false">
+
+	        <requestFocus />
+	    </EditText>
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="40dp"
+		android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/bankImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:onClick="SecondAct"
+            android:src="@drawable/bank_basic_green" />
+
+        <ImageView
+            android:id="@+id/gearImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:onClick="ThirdAct"
+            android:src="@drawable/gear_basic_green" />
+
+        <ImageView
+            android:id="@+id/mailImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1.0"
+            android:onClick="FourthAct"
+            android:src="@drawable/mail_basic_green" />
+    </LinearLayout>
+
+</RelativeLayout>

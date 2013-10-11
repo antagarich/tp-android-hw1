@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout 
+        android:id="@+id/headerId"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+   		android:layout_height="40dp"    
+   		android:background="#858585" >
+		
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/robot_64" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/github_64" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Заголовок"
+            android:textColor="#000000" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@id/headerId"
+		android:layout_alignParentBottom="true"
+		android:paddingLeft="5dp"
+		android:paddingRight="5dp"
+		android:paddingTop="25dp"
+		android:paddingBottom="25dp">
+        
+      	<TextView
+      	    android:id="@+id/leftTextBlock"
+      	    android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="@string/Notext"  />
+                
+        <TextView
+            android:id="@+id/rightTextBlock"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:textColor="#000000" 
+            android:gravity="center"
+            android:text="@string/Notext"  />
+		
+	</LinearLayout>
+
+</RelativeLayout>
