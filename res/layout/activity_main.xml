@@ -92,7 +92,7 @@
             android:layout_gravity="center"
             android:layout_weight="1.0"
             android:onClick="SecondAct"
-            android:src="@drawable/bank_basic_green" />
+            android:src="@drawable/bank" />
 
         <ImageView
             android:id="@+id/gearImage"
@@ -101,7 +101,7 @@
             android:layout_gravity="center"
             android:layout_weight="1.0"
             android:onClick="ThirdAct"
-            android:src="@drawable/gear_basic_green" />
+            android:src="@drawable/gear" />
 
         <ImageView
             android:id="@+id/mailImage"
@@ -110,7 +110,7 @@
             android:layout_gravity="center"
             android:layout_weight="1.0"
             android:onClick="FourthAct"
-            android:src="@drawable/mail_basic_green" />
+            android:src="@drawable/mail" />
     </LinearLayout>
 
 </RelativeLayout>

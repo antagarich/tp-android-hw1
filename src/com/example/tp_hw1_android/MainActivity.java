@@ -28,6 +28,11 @@ public class MainActivity extends Activity {
         startActivity(intent);
 	}
 	
+	//scroll view
+	//blue buttons
+	//intents
+	//storage text
+	
 	public void ThirdAct(View view)
 	{
         Intent intent = new Intent(MainActivity.this, ThirdActivity.class);

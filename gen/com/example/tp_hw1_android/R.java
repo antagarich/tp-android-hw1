@@ -21,16 +21,19 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int bank_basic_blue=0x7f020000;
-        public static final int bank_basic_green=0x7f020001;
-        public static final int gear_basic_blue=0x7f020002;
-        public static final int gear_basic_green=0x7f020003;
-        public static final int github_64=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int mail_basic_blue=0x7f020006;
-        public static final int mail_basic_green=0x7f020007;
-        public static final int robot_64=0x7f020008;
-        public static final int u2_normal=0x7f020009;
+        public static final int bank=0x7f020000;
+        public static final int bank_basic_blue=0x7f020001;
+        public static final int bank_basic_green=0x7f020002;
+        public static final int gear=0x7f020003;
+        public static final int gear_basic_blue=0x7f020004;
+        public static final int gear_basic_green=0x7f020005;
+        public static final int github_64=0x7f020006;
+        public static final int ic_launcher=0x7f020007;
+        public static final int mail=0x7f020008;
+        public static final int mail_basic_blue=0x7f020009;
+        public static final int mail_basic_green=0x7f02000a;
+        public static final int robot_64=0x7f02000b;
+        public static final int u2_normal=0x7f02000c;
     }
     public static final class id {
         public static final int DialogEditText=0x7f080005;
